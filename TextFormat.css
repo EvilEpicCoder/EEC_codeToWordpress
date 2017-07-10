@@ -1,0 +1,63 @@
+.my-flex-container{
+display:inline-block;
+flex-direcrion:row;
+flex-wrap: wrap;
+width:100%;
+}
+/* это то же самое, что ... */
+.my-flex-block{
+display:inline;
+flex-flow: column wrap;
+width:33%
+}
+.test-block{
+display:inline-block;
+background:green;
+width:30px;
+height:10px;	
+}
+.test1-block{
+display:inline-block;
+position:relative;
+background:yellow;
+width:30px;
+height:10px;
+
+}
+.test2-block{
+display:inline-block;
+position:relative;
+background:black;
+width:30px;
+height:10px;
+}
+
+textarea {
+ background:#c0c0c0;
+ color:#000;
+ border:1px inset #2B2A29;
+ #border-radius:10px;
+ margin:10px;
+ padding:10px;
+ font-family:Sans;
+ font-size:14px;
+ font-style:bold
+}
+::-webkit-input-placeholder {
+ color:blue;
+}
+:-moz-placeholder {
+ color:blue;
+}
+::-moz-placeholder {
+ color:blue;
+}
+.inline-block{
+display:inline-block;
+position:relative;
+width:250px;
+}
+.inline-text{
+display:inline-block;
+position:relative;
+}

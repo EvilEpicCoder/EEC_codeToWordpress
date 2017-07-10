@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="us">
+<head>
+<link rel="stylesheet" href="TextFormat.css"/>
+<script type="text/javascript" charset="UTF-8" src="format.js"></script>
+
+<title>Text Format</title>
+</head>
+<body>
+<form>
+<div class="my-flex-container">
+	<div class="inline-block">
+	<fieldset>
+		<legend>Parser Type</legend>
+		<select id="lang" name="language">
+			<option value="JavaScript">JavaScript</option>
+			<option value="Html">Html</option>
+			<option value="CSS">CSS</option>
+			<option value="C++">C++</option>
+		</select>	
+	</fieldset>
+	</div>	
+	<!-- color theme down -->
+	<div class="inline-block">	
+	<fieldset>
+		<legend>Code Color Theme</legend>
+			<select id="theme" name="hihligth">
+			<option value="1">light</option>
+			<option value="2">black</option>
+			<option value="3">contrast</option>
+			<option value="4">soft</option>
+		</select> 
+		<div class="test1-block">
+		</div>
+		<div class="test2-block">
+		</div> 
+	</fieldset>
+	</div>
+	<!-- color theme up -->
+	<div class="inline-block">
+	<fieldset>
+		<legend>Code Color Theme</legend>
+		<select id="color" name="hihligth">
+			<option value="1">light</option>
+			<option value="2">black</option>
+			<option value="3">contrast</option>
+			<option value="4">soft</option>
+		</select> 
+		<div class="test1-block">
+		</div>
+		<div class="test2-block">
+		</div> 
+	</fieldset>
+	</div>
+	<div class="inline-block">
+	<fieldset>
+		<legend>Lines Separation</legend>
+		<select name="numbering">
+			<option value="1">num zebra lines</option>
+			<option value="2">zebra lines</option>
+			<option value="3">num mono lines</option>
+			<option value="4">mono lines</option>
+		</select>
+		<div class="test1-block">
+		</div>
+		<div class="test2-block">
+		</div> 
+	</fieldset>
+	</div>
+	
+	<div class="inline-block">
+	<fieldset>
+	<legend>Background</legend>
+		<select name="background">
+			<option value="1">light</option>
+			<option value="2">twilling</option>
+			<option value="3">night</option>
+			<option value="4">contrast</option>
+		</select>
+		<div class="test-block">
+	    </div>
+	</fieldset>
+	</div>
+	<div class="my-flex-container">
+		<div class="inline-text">
+			<fieldset>
+					<legend>Input</legend>
+						<textarea id="input" name="input" rows="10" cols="30">
+						function input(){
+			
+						}
+						</textarea> 
+			</fieldset>		
+		</div>
+		<div class="inline-text">
+			<fieldset>
+					<legend>Output</legend>
+						<textarea id="output" name="input" rows="10" cols="30">
+						function input(){
+			
+						}
+						</textarea> 
+			</fieldset>	
+		</div>
+		<div class="inline-text">
+			<fieldset>
+					<legend>Preview</legend>
+						<div id="preview">
+							
+						</div>
+			</fieldset>	
+		</div>
+	</div>
+</div>
+</form>
+</body>
+</html>
