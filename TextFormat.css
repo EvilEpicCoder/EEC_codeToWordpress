@@ -14,28 +14,6 @@ display:inline;
 flex-flow: column wrap;
 width:33%
 }
-.test-block{
-display:inline-block;
-background:green;
-width:30px;
-height:10px;	
-}
-.test1-block{
-display:inline-block;
-position:relative;
-background:yellow;
-width:30px;
-height:10px;
-
-}
-.test2-block{
-display:inline-block;
-position:relative;
-background:black;
-width:30px;
-height:10px;
-}
-
 textarea {
  background:#c0c0c0;
  color:#000;
@@ -64,8 +42,4 @@ width:250px;
 .inline-text{
 display:inline-block;
 position:relative;
-}
-div.text{
-	background:black;
-	color:green;
 }

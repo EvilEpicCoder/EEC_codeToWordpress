@@ -55,8 +55,9 @@ function parse(){
 input=document.getElementById("input");
 output=document.getElementById("output");
 preview=document.getElementById("preview");
-		//console.log("Clicked");
-
+//console.log("Clicked");
+output.value="";		//Clean values in output
+preview.innerHTML="";	//Clean values in preview
 inputBuffer=input.value;
 decode(inputBuffer);
 }
@@ -64,7 +65,7 @@ function decode(val){
 		//console.log(typeof(val));
 		//console.log(val.length);
 	codeValue.push("<div style='font-family:Monospace;font-size:12px;background:#E5E5FF;color:#4D4D4D;'>");//creating block with code
-	codeValue.push("<span style='font-family:Monospace;font-size:10px;color:#BFBFBF;'>1__ </span>");//zero line numerated
+	codeValue.push("<span style='font-family:Monospace;font-size:10px;color:#BFBFBF;'>1__&nbsp</span>");//zero line numerated
 	//we have string, chacking each character
 	for(var i=0;i<=val.length+1;i++){
 		for(var s=0;s<=keyCharArray.length;s++){
