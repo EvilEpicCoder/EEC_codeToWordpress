@@ -7,11 +7,11 @@ Java Script Super Simple Reformator
 All code under maintanance
 
 Instructions:
-1. `RUN` index.html
-2. `PASTE` your code
-3. push button "Format Your Code"
-4. `COPY` your "formatted code" 
-5. `PASTE` on your forum or blog or website
+1. `Run` index.html
+2. `Paste` your code
+3. `Push button` "Format Your Code"
+4. `Copy` your "formatted code" 
+5. `Paste` on your forum or blog or website
 
 ***
 Russian/Русский:
@@ -22,8 +22,8 @@ Russian/Русский:
 
 Инструкции:
 1. `Запустите` index.html в браузере
-2. `ВСТАВТЕ` свой техт кода(листинг)
-3. Нажмите кнопку: "Format Your Code"
-4. `СКОПИРУЙТЕ` отформатированный текст
-5. `ВСТАВТЕ` отформатированный текст в блог\сайт\форум
+2. `Вставте` свой техт кода(листинг)
+3. `Нажмите кнопку`: "Format Your Code"
+4. `Скопируйте` отформатированный текст
+5. `Вставте` отформатированный текст в блог\сайт\форум
 
