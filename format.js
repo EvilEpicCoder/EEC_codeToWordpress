@@ -56,6 +56,16 @@ input=document.getElementById("input");
 output=document.getElementById("output");
 preview=document.getElementById("preview");
 //console.log("Clicked");
+
+console.log(preview.childNodes.length);
+if(preview.childNodes.length>0){
+	for(var f=preview.childNodes.length-1;f>=0;f--){
+	preview.removeChild(preview.childNodes[f]);
+	console.log(preview.childNodes[f]);
+	}
+	codeValue=[];
+}
+
 output.value="";		//Clean values in output
 preview.innerHTML="";	//Clean values in preview
 inputBuffer=input.value;
@@ -96,5 +106,6 @@ function decode(val){
 	//codeValue=codeValue.split(" ");
 	output.value=codeValue.join("");
 	preview.innerHTML=codeValue.join("");
+
 	//console.log(codeValue);
 }
